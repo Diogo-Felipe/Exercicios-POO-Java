@@ -1,10 +1,10 @@
 package br.com.diogo;
 
 public class Heroi {
-	String nome;
-	int forca;
-	int velocidade;
-	int resistencia;
+	private String nome;
+	private int forca;
+	private int velocidade;
+	private int resistencia;
 	
 	Heroi(){
 		System.out.println("Um novo herói nasce!!!");
@@ -21,5 +21,12 @@ public class Heroi {
 	
 	void atacar() {
 		System.out.println("Espancando os otários");
+	}
+	
+	void imprimir() {
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Froça: " + this.forca);
+		System.out.println("Velocidade: " + this.velocidade);
+		System.out.println("Resistencia: " + this.resistencia);
 	}
 }
