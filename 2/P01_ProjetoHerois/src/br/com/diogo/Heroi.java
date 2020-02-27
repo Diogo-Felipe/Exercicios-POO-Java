@@ -28,6 +28,10 @@ public class Heroi {
 		}
 	}
 	
+	public String getNome() {
+		return this.nome;
+	}
+	
 	public void setForca(int forca) {
 		if(forca < 1) {
 			this.forca = forca;
