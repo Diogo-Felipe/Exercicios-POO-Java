@@ -41,6 +41,9 @@ public class Heroi {
 		}
 	}
 	
+	public int getForca() {
+		return this.forca;
+	}
 	
 	
 	void atacar() {
