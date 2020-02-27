@@ -19,7 +19,7 @@ public class Heroi {
 		System.out.println("Um novo herói nasce: " + this.nome + ", O destemido");
 	}
 	
-	void bater() {
-		System.out.println("Batendo");
+	void atacar() {
+		System.out.println("Espancando os otários");
 	}
 }
