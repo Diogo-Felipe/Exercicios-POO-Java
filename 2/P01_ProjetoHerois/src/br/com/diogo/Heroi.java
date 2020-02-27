@@ -23,7 +23,7 @@ public class Heroi {
 		if(nome.length() > 1 && nome.length() <= 100) {
 			this.nome = nome;
 		} else {
-			System.out.println("Nome muito curto");
+			System.out.println("Nome invalido");
 		}
 	}
 	
