@@ -11,10 +11,10 @@ public class Heroi {
 	}
 	
 	Heroi(String nome, int forca, int velocidade, int resistencia){
-		this.nome = nome;
-		this.forca = forca;
-		this.velocidade = velocidade;
-		this.resistencia = resistencia;
+		setNome(nome);
+		setForca(forca);
+		setVelocidade(velocidade);
+		setResistencia(resistencia);
 		
 		System.out.println("Um novo herói nasce: " + this.nome + ", O destemido");
 	}
