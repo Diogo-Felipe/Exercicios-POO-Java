@@ -33,7 +33,7 @@ public class Heroi {
 	}
 	
 	public void setForca(int forca) {
-		if(forca < 1) {
+		if(forca > 1) {
 			this.forca = forca;
 		} else {
 			System.out.println("Forca Invalida");
@@ -45,6 +45,31 @@ public class Heroi {
 		return this.forca;
 	}
 	
+	public void setVelocidade(int velocidade) {
+		if(velocidade > 1) {
+			this.velocidade = velocidade;
+		} else {
+			System.out.println("Velocidade Invalida");
+			System.exit(0);
+		}
+	}
+	
+	public int getVelocidade() {
+		return this.velocidade;
+	}
+	
+	public void setResistencia(int resistencia) {
+		if(resistencia > 1) {
+			this.resistencia = resistencia;
+		} else {
+			System.out.println("Resistência Invalida");
+			System.exit(0);
+		}
+	}
+	
+	public int getResistecia() {
+		return this.resistencia;
+	}
 	
 	void atacar() {
 		System.out.println("Espancando os otários");
