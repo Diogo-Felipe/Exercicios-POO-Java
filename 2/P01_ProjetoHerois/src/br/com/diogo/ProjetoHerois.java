@@ -6,7 +6,9 @@ public class ProjetoHerois {
 		Heroi sett = new Heroi("Sett", 10, 25, 10);
 		
 		sett.atacar();
-
+		
+		
+		Heroi pedro = new Heroi();
 	}
 
 }
