@@ -23,9 +23,20 @@ public class Heroi {
 		if(nome.length() > 1 && nome.length() <= 100) {
 			this.nome = nome;
 		} else {
-			System.out.println("Nome invalido");
+			System.err.println("Nome invalido");
+			System.exit(0);
 		}
 	}
+	
+	public void setForca(int forca) {
+		if(forca < 1) {
+			this.forca = forca;
+		} else {
+			System.out.println("Forca Invalida");
+		}
+	}
+	
+	
 	
 	void atacar() {
 		System.out.println("Espancando os otários");
