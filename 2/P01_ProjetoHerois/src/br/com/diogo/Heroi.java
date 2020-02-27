@@ -19,6 +19,14 @@ public class Heroi {
 		System.out.println("Um novo herói nasce: " + this.nome + ", O destemido");
 	}
 	
+	public void setNome(String nome) {
+		if(nome.length() > 1 && nome.length() <= 100) {
+			this.nome = nome;
+		} else {
+			System.out.println("Nome muito curto");
+		}
+	}
+	
 	void atacar() {
 		System.out.println("Espancando os otários");
 	}
