@@ -33,6 +33,7 @@ public class Heroi {
 			this.forca = forca;
 		} else {
 			System.out.println("Forca Invalida");
+			System.exit(0);
 		}
 	}
 	
