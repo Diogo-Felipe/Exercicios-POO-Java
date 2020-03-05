@@ -58,13 +58,17 @@ public class Produto {
 		
 	}
 	
+	public void getAtributos() {
+		System.out.println("Nome: " + this.nome);
+		System.out.println("Preco: " + this.preco);
+		System.out.println("Peso: " + this.peso);
+	}
+	
 	
 	public double aplicaDesconto(double porcentagemDesconto) {
 		double novoValor;
 		
 		novoValor = (porcentagemDesconto / 100) * this.getPreco();
-		
-		System.out.println("Valor com desconto de " + porcentagemDesconto + ": " + novoValor);
 		
 		return novoValor;
 	}
