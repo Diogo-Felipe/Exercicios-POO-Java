@@ -12,6 +12,8 @@ public class Produto {
 	Produto(String nome, double preco, double peso){
 		System.out.println("Produto Instanciado Com Parametros");
 		this.setNome(nome);
+		this.setPeso(peso);
+		this.setPreco(preco);
 		
 	}
 	
@@ -66,5 +68,7 @@ public class Produto {
 		
 		return novoValor;
 	}
+	
+	
 	
 }
