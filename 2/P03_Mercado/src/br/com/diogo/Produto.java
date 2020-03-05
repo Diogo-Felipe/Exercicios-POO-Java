@@ -68,7 +68,7 @@ public class Produto {
 	public double aplicaDesconto(double porcentagemDesconto) {
 		double novoValor;
 		
-		novoValor = (porcentagemDesconto / 100) * this.getPreco();
+		novoValor = this.getPreco() - (porcentagemDesconto / 100) * this.getPreco();
 		
 		return novoValor;
 	}
