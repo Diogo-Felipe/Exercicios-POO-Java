@@ -16,7 +16,6 @@ public class Produto {
 	}
 	
 	public String getNome() {
-		System.out.println("Nome do produto: " + this.nome);
 		return this.nome;
 	}
 	
@@ -31,7 +30,6 @@ public class Produto {
 	
 	
 	public double getPreco() {
-		System.out.println("O preço do produto: " + this.preco);
 		return this.preco;
 	}
 	
@@ -45,7 +43,6 @@ public class Produto {
 	
 	
 	public double getPeso() {
-		System.out.println("O peso do produto: " + this.peso);
 		return this.peso;
 	}
 	
@@ -60,6 +57,14 @@ public class Produto {
 	}
 	
 	
-
+	public double aplicaDesconto(double porcentagemDesconto) {
+		double novoValor;
+		
+		novoValor = (porcentagemDesconto / 100) * this.getPreco();
+		
+		System.out.println("Valor com desconto de " + porcentagemDesconto + ": " + novoValor);
+		
+		return novoValor;
+	}
 	
 }
