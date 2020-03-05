@@ -21,7 +21,12 @@ public class Produto {
 	}
 	
 	public void setNome(String nome){
-		this.nome = nome;
+		if(nome.length() > 1) {
+			this.nome = nome;	
+		} else {
+			System.err.println("Nome muito curto");
+		}
+		
 	}
 	
 	
@@ -31,7 +36,11 @@ public class Produto {
 	}
 	
 	public void setPreco(double preco) {
-		this.preco = preco;
+		if(preco > 0) {
+			this.preco = preco;
+		} else {
+			System.err.println("Preço Invalido");
+		}	
 	}
 	
 	
@@ -41,7 +50,16 @@ public class Produto {
 	}
 	
 	public void setPeso(double peso) {
-		this.peso = peso;
+		if(peso > 0) {
+			this.peso = peso;
+		} else {
+			System.err.println("Peso Invalido");
+		}
+		
+		
 	}
+	
+	
+
 	
 }
