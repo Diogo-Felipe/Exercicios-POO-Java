@@ -1,5 +1,5 @@
 package dimensao.bidimensional;
 
-public class TrianguloRetangulo {
+class TrianguloRetangulo {
 
 }

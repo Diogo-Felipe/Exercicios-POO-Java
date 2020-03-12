@@ -10,7 +10,7 @@ public class Exerc01_Geometria {
     ///////////// FAÇA DENTRO DA CLASSE TrianguloRetangulo:
     ///////////// Sempre usando o modificador de acesso default para a classe, 
     ///////////// atributos e métodos
-    // TODO 4 remova o "public" de "public class TrianguloRetangulo"
+    // DONE 4 remova o "public" de "public class TrianguloRetangulo"
     // TODO 5 declare o atributo cateto1 
     // TODO 6 declare o atributo cateto2 
     // TODO 7 declare o atributo hipotenusa 
