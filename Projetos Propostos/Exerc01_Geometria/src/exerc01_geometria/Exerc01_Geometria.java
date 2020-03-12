@@ -34,6 +34,7 @@ public class Exerc01_Geometria {
     	// Deixar a classe visÌvel (public)
     	// O erro persiste porque a classe est· em outro pacote
     	// N„o È possÌvel, j· que o padr„o sÛ pode ser chamado dentro do pacote
+    	// Deixar os atributos p˙blicos
     	
         // DONE 12 crie aqui um objeto da classe TrianguloRetangulo
         // DONE 13 escreva como coment√°rio: por que aconteceu um erro na cria√ß√£o do objeto?
@@ -44,7 +45,7 @@ public class Exerc01_Geometria {
         
         // DONE 18 atrav√©s do objeto, atribua valor dentro dos atributos diretamente
         // DONE 19 escreva como coment√°rio: √© poss√≠vel realizar esta atribui√ß√£o? Justifique.
-        // TODO 20 escreva como coment√°rio: o que pode ser feito para resolver este problema?
+        // DONE 20 escreva como coment√°rio: o que pode ser feito para resolver este problema?
         
     }
     
