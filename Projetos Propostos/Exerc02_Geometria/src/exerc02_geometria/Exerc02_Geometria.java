@@ -32,8 +32,9 @@ public class Exerc02_Geometria {
         System.out.println("Área do Triângulo: " + areaTr1);
         
         // TODO 13 comente: por que estÃ¡ dando erro?
+        // Esta dando erro pois o método é default
         // TODO 14 comente: o que pode ser feito para resolver este erro?
-        
+        // Tornar o método público
         
         // TODO 16 crie aqui uma variÃ¡vel double de nome perimetroTr1
         // TODO 17 atravÃ©s do objeto tr1, acesse o mÃ©todo calcPerimetro() da classe TrianguloRetangulo 

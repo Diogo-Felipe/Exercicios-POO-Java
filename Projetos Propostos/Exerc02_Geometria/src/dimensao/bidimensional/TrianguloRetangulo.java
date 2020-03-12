@@ -9,7 +9,7 @@ public class TrianguloRetangulo {
     private double alturaHipotenusa;
     
     // TODO 15 altere o modificador de acesso deste método para public
-    double calcArea(){
+    public double calcArea(){
         double area = this.hipotenusa * alturaHipotenusa / 2.0;
         return area;
     }
