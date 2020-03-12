@@ -26,9 +26,14 @@ public class Exerc01_Geometria {
     	
     	TrianguloRetangulo t1 = new TrianguloRetangulo();
     	
+    	t1.cateto1 = 3;
+    	t1.cateto2 = 4;
+    	t1.hipotenusa = 5;
+    	
     	// A classe n„o È publica e portanto n„o est· visÌvel para o main
     	// Deixar a classe visÌvel (public)
     	// O erro persiste porque a classe est· em outro pacote
+    	// N„o È possÌvel, j· que o padr„o sÛ pode ser chamado dentro do pacote
     	
         // DONE 12 crie aqui um objeto da classe TrianguloRetangulo
         // DONE 13 escreva como coment√°rio: por que aconteceu um erro na cria√ß√£o do objeto?
@@ -37,8 +42,8 @@ public class Exerc01_Geometria {
         // DONE 16 escreva como coment√°rio: por que o erro continua?
         // DONE 17 adicione a importa√ß√£o da classe TrianguloRetangulo (clique na l√¢mpada ao lado)
         
-        // TODO 18 atrav√©s do objeto, atribua valor dentro dos atributos diretamente
-        // TODO 19 escreva como coment√°rio: √© poss√≠vel realizar esta atribui√ß√£o? Justifique.
+        // DONE 18 atrav√©s do objeto, atribua valor dentro dos atributos diretamente
+        // DONE 19 escreva como coment√°rio: √© poss√≠vel realizar esta atribui√ß√£o? Justifique.
         // TODO 20 escreva como coment√°rio: o que pode ser feito para resolver este problema?
         
     }
