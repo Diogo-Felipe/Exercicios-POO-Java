@@ -16,8 +16,8 @@ public class Exerc01_Geometria {
     // DONE 7 declare o atributo hipotenusa 
     // DONE 8 declare o atributo alturaHipotenusa 
     // DONE 9 crie um método para calcular e retornar a área do triângulo
-    // TODO 10 crie um método para calcular e retornar o perímetro do triângulo
-    // TODO 11 crie o contrutor padrão (vazio) e o parametrizado da classe (dica: Alt+Insert)
+    // DONE 10 crie um método para calcular e retornar o perímetro do triângulo
+    // DONE 11 crie o contrutor padrão (vazio) e o parametrizado da classe (dica: Alt+Insert)
     //////////////////////////////////////////////
 
     public static void main(String[] args) {
