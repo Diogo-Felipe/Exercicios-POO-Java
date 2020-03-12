@@ -15,7 +15,7 @@ public class TrianguloRetangulo {
     }
     
     // TODO 21 altere o modificador de acesso deste método para public
-    double calcPerimetro(){
+    public double calcPerimetro(){
         double perimetro = cateto1 + cateto2 + hipotenusa;
         return perimetro;
     }

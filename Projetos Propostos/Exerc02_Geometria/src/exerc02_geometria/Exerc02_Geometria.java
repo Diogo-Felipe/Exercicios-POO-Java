@@ -24,24 +24,29 @@ public class Exerc02_Geometria {
         // DONE 9 comente: as atribuiÃ§Ãµes deram certo? Por quÃª?
         // Deram, já que estavam publicos
         
-        // TODO 10 crie aqui uma variÃ¡vel double de nome areaTr1        
-        // TODO 11 atravÃ©s do objeto tr1, acesse o mÃ©todo calcArea() da classe TrianguloRetangulo 
+        // DONE 10 crie aqui uma variÃ¡vel double de nome areaTr1        
+        // DONE 11 atravÃ©s do objeto tr1, acesse o mÃ©todo calcArea() da classe TrianguloRetangulo 
         ////////// e armazene o valor de retorno do mÃ©todo na variÃ¡vel areaTr1
-        // TODO 12 imprima o valor da Ã¡rea da seguinte forma: "Ã�rea do triÃ¢ngulo tr1: <VALOR>"
+        // DONE 12 imprima o valor da Ã¡rea da seguinte forma: "Ã�rea do triÃ¢ngulo tr1: <VALOR>"
         double areaTr1 = tr1.calcArea();
         System.out.println("Área do Triângulo: " + areaTr1);
         
-        // TODO 13 comente: por que estÃ¡ dando erro?
+        // DONE 13 comente: por que estÃ¡ dando erro?
         // Esta dando erro pois o método é default
-        // TODO 14 comente: o que pode ser feito para resolver este erro?
+        // DONE 14 comente: o que pode ser feito para resolver este erro?
         // Tornar o método público
         
-        // TODO 16 crie aqui uma variÃ¡vel double de nome perimetroTr1
-        // TODO 17 atravÃ©s do objeto tr1, acesse o mÃ©todo calcPerimetro() da classe TrianguloRetangulo 
+        // DONE 16 crie aqui uma variÃ¡vel double de nome perimetroTr1
+        // DONE 17 atravÃ©s do objeto tr1, acesse o mÃ©todo calcPerimetro() da classe TrianguloRetangulo 
         ////////// e armazene o valor de retorno do mÃ©todo na variÃ¡vel perimetroTr1
-        // TODO 18 imprima o valor do perÃ­metro da seguinte forma: "PerÃ­metro do triÃ¢ngulo tr1: <VALOR>"
-        // TODO 19 comente: por que estÃ¡ dando erro?
-        // TODO 20 comente: o que pode ser feito para resolver este erro?
+        // DONE 18 imprima o valor do perÃ­metro da seguinte forma: "PerÃ­metro do triÃ¢ngulo tr1: <VALOR>"
+        double perimetroTr1 = tr1.calcPerimetro();
+        System.out.println("Perímetro do triângulo: " + perimetroTr1);
+        
+        // DONE 19 comente: por que estÃ¡ dando erro?
+        // Esta dando erro pois o método é default
+        // DONE 20 comente: o que pode ser feito para resolver este erro?
+        // Tornar o método público
         
         // TODO 21 crie um outro objeto atravÃ©s do construtor, passando um valor invÃ¡lido
         // TODO 22 atravÃ©s do objeto da tarefa anterior, chame os mÃ©todos calcArea() e calcPerimetro()
