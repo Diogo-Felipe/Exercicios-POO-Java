@@ -11,11 +11,11 @@ public class Exerc01_Geometria {
     ///////////// Sempre usando o modificador de acesso default para a classe, 
     ///////////// atributos e métodos
     // DONE 4 remova o "public" de "public class TrianguloRetangulo"
-    // TODO 5 declare o atributo cateto1 
-    // TODO 6 declare o atributo cateto2 
-    // TODO 7 declare o atributo hipotenusa 
-    // TODO 8 declare o atributo alturaHipotenusa 
-    // TODO 9 crie um método para calcular e retornar a área do triângulo
+    // DONE 5 declare o atributo cateto1 
+    // DONE 6 declare o atributo cateto2 
+    // DONE 7 declare o atributo hipotenusa 
+    // DONE 8 declare o atributo alturaHipotenusa 
+    // DONE 9 crie um método para calcular e retornar a área do triângulo
     // TODO 10 crie um método para calcular e retornar o perímetro do triângulo
     // TODO 11 crie o contrutor padrão (vazio) e o parametrizado da classe (dica: Alt+Insert)
     //////////////////////////////////////////////
