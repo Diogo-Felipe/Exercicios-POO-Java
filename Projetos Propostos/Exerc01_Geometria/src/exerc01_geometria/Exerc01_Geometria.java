@@ -28,13 +28,14 @@ public class Exerc01_Geometria {
     	
     	// A classe n�o � publica e portanto n�o est� vis�vel para o main
     	// Deixar a classe vis�vel (public)
+    	// O erro persiste porque a classe est� em outro pacote
     	
-        // TODO 12 crie aqui um objeto da classe TrianguloRetangulo
-        // TODO 13 escreva como comentário: por que aconteceu um erro na criação do objeto?
-        // TODO 14 escreva como comentário: o que pode ser feito para resolver o erro?
-        // TODO 15 altere o modificador da classe TrianguloRetangulo para public
-        // TODO 16 escreva como comentário: por que o erro continua?
-        // TODO 17 adicione a importação da classe TrianguloRetangulo (clique na lâmpada ao lado)
+        // DONE 12 crie aqui um objeto da classe TrianguloRetangulo
+        // DONE 13 escreva como comentário: por que aconteceu um erro na criação do objeto?
+        // DONE 14 escreva como comentário: o que pode ser feito para resolver o erro?
+        // DONE 15 altere o modificador da classe TrianguloRetangulo para public
+        // DONE 16 escreva como comentário: por que o erro continua?
+        // DONE 17 adicione a importação da classe TrianguloRetangulo (clique na lâmpada ao lado)
         
         // TODO 18 através do objeto, atribua valor dentro dos atributos diretamente
         // TODO 19 escreva como comentário: é possível realizar esta atribuição? Justifique.

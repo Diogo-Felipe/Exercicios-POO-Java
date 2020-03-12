@@ -1,6 +1,6 @@
 package dimensao.bidimensional;
 
-class TrianguloRetangulo {
+public class TrianguloRetangulo {
 	
 	double cateto1, cateto2, hipotenusa, alturaHipotenusa;
 	
@@ -18,7 +18,7 @@ class TrianguloRetangulo {
 	}
 	
 	public double calculaArea() {
-		return (this.cateto1 * this.cateto2) / 2.0;
+		return (this.hipotenusa * this.alturaHipotenusa) / 2.0;
 	}
 	
 	public double calculaPerimetro() {
