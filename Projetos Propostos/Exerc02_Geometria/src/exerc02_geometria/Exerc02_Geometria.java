@@ -49,6 +49,8 @@ public class Exerc02_Geometria {
         // Tornar o método público
         
         // TODO 21 crie um outro objeto atravÃ©s do construtor, passando um valor invÃ¡lido
+        TrianguloRetangulo tr2 = new TrianguloRetangulo();
+        
         // TODO 22 atravÃ©s do objeto da tarefa anterior, chame os mÃ©todos calcArea() e calcPerimetro()
         // TODO 23 imprima os valores dos cÃ¡lculos
         
