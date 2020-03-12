@@ -11,10 +11,15 @@ public class Exerc02_Geometria {
         // DONE 4 apague as linhas de acesso direto aos atributos
         ///////// sabemos que este tipo de acesso Ã© prejudical para o projeto, porque diminui a segurança(complete)
         
-        // TODO 5 atravÃ©s do set, atribua valor 14.5 para o atributo cateto1
-        // TODO 6 atravÃ©s do set, atribua valor 48.1 para o atributo cateto2
-        // TODO 7 atravÃ©s do set, atribua valor 51.2 para o atributo hipotenusa
-        // TODO 8 atravÃ©s do set, atribua valor 12.3 para o atributo alturaHipotenusa
+        // DONE 5 atravÃ©s do set, atribua valor 14.5 para o atributo cateto1
+        // DONE 6 atravÃ©s do set, atribua valor 48.1 para o atributo cateto2
+        // DONE 7 atravÃ©s do set, atribua valor 51.2 para o atributo hipotenusa
+        // DONE 8 atravÃ©s do set, atribua valor 12.3 para o atributo alturaHipotenusa
+        
+        tr1.setCeteto1(14.5);
+        tr1.setCeteto2(48.1);
+        tr1.setHipotenusa(51.2);
+        tr1.setAlturaHipotenusa(12.3);
         
         // TODO 9 comente: as atribuiÃ§Ãµes deram certo? Por quÃª?
         
