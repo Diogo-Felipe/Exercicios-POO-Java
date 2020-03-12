@@ -48,14 +48,17 @@ public class Exerc02_Geometria {
         // DONE 20 comente: o que pode ser feito para resolver este erro?
         // Tornar o método público
         
-        // TODO 21 crie um outro objeto atravÃ©s do construtor, passando um valor invÃ¡lido
-        TrianguloRetangulo tr2 = new TrianguloRetangulo();
+        // DONE 21 crie um outro objeto atravÃ©s do construtor, passando um valor invÃ¡lido
+        TrianguloRetangulo tr2 = new TrianguloRetangulo(-1, 2, -3, -5);
         
-        // TODO 22 atravÃ©s do objeto da tarefa anterior, chame os mÃ©todos calcArea() e calcPerimetro()
-        // TODO 23 imprima os valores dos cÃ¡lculos
+        // DONE 22 atravÃ©s do objeto da tarefa anterior, chame os mÃ©todos calcArea() e calcPerimetro()
+        // DONE 23 imprima os valores dos cÃ¡lculos
         
-        // TODO 24 comente: o que acontece? o que fazer para consertar este problema?
+        System.out.println("Area: " + tr2.calcArea());
+        System.out.println("Perímetro " + tr2.calcPerimetro());
         
+        // DONE 24 comente: o que acontece? o que fazer para consertar este problema?
+        // Os valores foram salvos. Usar o setter no construtor resolve o problema
         
     }
     
