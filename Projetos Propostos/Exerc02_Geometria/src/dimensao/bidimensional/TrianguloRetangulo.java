@@ -8,24 +8,24 @@ public class TrianguloRetangulo {
     private double hipotenusa;
     private double alturaHipotenusa;
     
-    // TODO 15 altere o modificador de acesso deste método para public
+    // DONE 15 altere o modificador de acesso deste método para public
     public double calcArea(){
         double area = this.hipotenusa * alturaHipotenusa / 2.0;
         return area;
     }
     
-    // TODO 21 altere o modificador de acesso deste método para public
+    // DONE 21 altere o modificador de acesso deste método para public
     public double calcPerimetro(){
         double perimetro = cateto1 + cateto2 + hipotenusa;
         return perimetro;
     }
 
     public TrianguloRetangulo(double cateto1, double cateto2, double hipotenusa, double alturaHipotenusa) {
-        // TODO 25 chame o método set para realizar atribuição dos valores nos atributos
-        this.cateto1 = cateto1;
-        this.cateto2 = cateto2;
-        this.hipotenusa = hipotenusa;
-        this.alturaHipotenusa = alturaHipotenusa;
+        // DONE 25 chame o método set para realizar atribuição dos valores nos atributos
+        setCeteto1(cateto1);
+        setCeteto2(cateto2);
+        setHipotenusa(hipotenusa);
+        setAlturaHipotenusa(alturaHipotenusa);
     }
     
     public TrianguloRetangulo() {
