@@ -34,7 +34,7 @@ public class Exerc01_Geometria {
     	// Deixar a classe visível (public)
     	// O erro persiste porque a classe está em outro pacote
     	// Não é possível, já que o padrão só pode ser chamado dentro do pacote
-    	// Deixar os atributos públicos
+    	// Deixar os atributos públicos ou usar setters
     	
         // DONE 12 crie aqui um objeto da classe TrianguloRetangulo
         // DONE 13 escreva como comentÃ¡rio: por que aconteceu um erro na criaÃ§Ã£o do objeto?
