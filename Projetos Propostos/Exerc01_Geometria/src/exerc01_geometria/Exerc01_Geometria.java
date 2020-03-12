@@ -1,6 +1,8 @@
 
 package exerc01_geometria;
 
+import dimensao.bidimensional.*;
+
 public class Exerc01_Geometria {
     
     // DONE 1 crie um pacote chamado dimensao
@@ -21,6 +23,9 @@ public class Exerc01_Geometria {
     //////////////////////////////////////////////
 
     public static void main(String[] args) {
+    	
+    	TrianguloRetangulo t1 = new TrianguloRetangulo();
+    	
         // TODO 12 crie aqui um objeto da classe TrianguloRetangulo
         // TODO 13 escreva como comentário: por que aconteceu um erro na criação do objeto?
         // TODO 14 escreva como comentário: o que pode ser feito para resolver o erro?
