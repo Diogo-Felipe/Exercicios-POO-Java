@@ -26,6 +26,9 @@ public class Exerc01_Geometria {
     	
     	TrianguloRetangulo t1 = new TrianguloRetangulo();
     	
+    	// A classe n„o È publica e portanto n„o est· visÌvel para o main
+    	// Deixar a classe visÌvel (public)
+    	
         // TODO 12 crie aqui um objeto da classe TrianguloRetangulo
         // TODO 13 escreva como coment√°rio: por que aconteceu um erro na cria√ß√£o do objeto?
         // TODO 14 escreva como coment√°rio: o que pode ser feito para resolver o erro?
