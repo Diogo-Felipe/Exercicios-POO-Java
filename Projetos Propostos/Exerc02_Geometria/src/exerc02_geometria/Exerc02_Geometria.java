@@ -21,7 +21,8 @@ public class Exerc02_Geometria {
         tr1.setHipotenusa(51.2);
         tr1.setAlturaHipotenusa(12.3);
         
-        // TODO 9 comente: as atribuiÃ§Ãµes deram certo? Por quÃª?
+        // DONE 9 comente: as atribuiÃ§Ãµes deram certo? Por quÃª?
+        // Deram, já que estavam publicos
         
         // TODO 10 crie aqui uma variÃ¡vel double de nome areaTr1
         // TODO 11 atravÃ©s do objeto tr1, acesse o mÃ©todo calcArea() da classe TrianguloRetangulo 
