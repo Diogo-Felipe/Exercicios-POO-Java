@@ -8,4 +8,7 @@ public class TrianguloEquilatero {
 		return lado * altura;
 	}
 	
+	public double calculaPerimetro() {
+		return lado * 3;
+	}
 }
