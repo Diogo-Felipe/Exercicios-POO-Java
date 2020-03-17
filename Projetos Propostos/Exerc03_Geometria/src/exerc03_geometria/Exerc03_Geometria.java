@@ -53,10 +53,13 @@ public class Exerc03_Geometria {
         // DONE 15 imprima o valor da Ã¡rea da seguinte forma: "Ã�rea do triÃ¢ngulo te1: <VALOR>"
         System.out.println("Área do triângulo: " + areaTe1);
         
-        // TODO 16 crie aqui uma variÃ¡vel double de nome perimetroTe1
-        // TODO 17 atravÃ©s do objeto te1, acesse o mÃ©todo calcPerimetro() da classe TrianguloEquilatero
+        // DONE 16 crie aqui uma variÃ¡vel double de nome perimetroTe1
+        double perimetroTe1;
+        // DONE 17 atravÃ©s do objeto te1, acesse o mÃ©todo calcPerimetro() da classe TrianguloEquilatero
         ////////// e armazene o valor de retorno do mÃ©todo na variÃ¡vel perimetroTe1
-        // TODO 16 imprima o valor do perÃ­metro da seguinte forma: "PerÃ­metro do triÃ¢ngulo te1: <VALOR>"
+        perimetroTe1 = te1.calculaPerimetro();
+        // DONE 16 imprima o valor do perÃ­metro da seguinte forma: "PerÃ­metro do triÃ¢ngulo te1: <VALOR>"
+        System.out.println("Perímetro do triângulo te1: " + perimetroTe1);
     }
     
 }
