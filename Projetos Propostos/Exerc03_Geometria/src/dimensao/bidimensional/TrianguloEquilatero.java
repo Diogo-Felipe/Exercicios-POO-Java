@@ -8,7 +8,10 @@ public class TrianguloEquilatero {
 		System.out.println("Inicializando construtor sem parametros");
 	}
 	
-	
+	TrianguloEquilatero( double lado, double altura ){
+		this.lado = lado;
+		this.altura = altura;
+	}
 	
 	public double calculaArea() {
 		return lado * altura;
