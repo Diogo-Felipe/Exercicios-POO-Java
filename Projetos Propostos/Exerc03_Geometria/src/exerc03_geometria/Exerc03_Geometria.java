@@ -11,7 +11,7 @@ public class Exerc03_Geometria {
     ///////////// Agora, vocÃª vai decidir quais modificadores de acesso devem ser usados
     // DONE 2 declare o atributo lado
     // DONE 3 declare o atributo altura
-    // TODO 4 crie um mÃ©todo para calcular e retornar a Ã¡rea do triÃ¢ngulo equilÃ¡tero
+    // DONE 4 crie um mÃ©todo para calcular e retornar a Ã¡rea do triÃ¢ngulo equilÃ¡tero
     // TODO 5 crie um mÃ©todo para calcular e retornar o perÃ­metro do triÃ¢ngulo equilÃ¡tero
     // TODO 6 crie o contrutor padrÃ£o (sem argumentos)
     // TODO 7 crie o contrutor parametrizado (com todos os argumentos)
