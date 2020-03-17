@@ -4,6 +4,12 @@ public class TrianguloEquilatero {
 	private double lado;
 	private double altura;
 	
+	TrianguloEquilatero(){
+		System.out.println("Inicializando construtor sem parametros");
+	}
+	
+	
+	
 	public double calculaArea() {
 		return lado * altura;
 	}
