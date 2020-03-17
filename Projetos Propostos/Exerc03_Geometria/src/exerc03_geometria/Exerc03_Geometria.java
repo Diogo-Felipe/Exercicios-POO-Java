@@ -37,18 +37,21 @@ public class Exerc03_Geometria {
 
         TrianguloRetangulo tr2 = new TrianguloRetangulo(0.0,-1.2,3.0,9.9);
         
-        // TODO 10 aqui dentro do main, crie um objeto da classe TrianguloEquilatero (nome: te1)
+        // DONE 10 aqui dentro do main, crie um objeto da classe TrianguloEquilatero (nome: te1)
         TrianguloEquilatero te1 = new TrianguloEquilatero();
         
-        // TODO 11 atravÃ©s do set, atribua valor 6.33 para o atributo lado
+        // DONE 11 atravÃ©s do set, atribua valor 6.33 para o atributo lado
         te1.setLado(6.33);
-        // TODO 12 atravÃ©s do set, atribua valor 5.48 para o atributo altura
+        // DONE 12 atravÃ©s do set, atribua valor 5.48 para o atributo altura
         te1.setAltura(5.48);
         
-        // TODO 13 crie aqui uma variÃ¡vel double de nome areaTe1
-        // TODO 14 atravÃ©s do objeto te1, acesse o mÃ©todo calcArea() da classe TrianguloEquilatero
+        // DONE 13 crie aqui uma variÃ¡vel double de nome areaTe1
+        double areaTe1;
+        // DONE 14 atravÃ©s do objeto te1, acesse o mÃ©todo calcArea() da classe TrianguloEquilatero
         ////////// e armazene o valor de retorno do mÃ©todo na variÃ¡vel areaTe1
-        // TODO 15 imprima o valor da Ã¡rea da seguinte forma: "Ã�rea do triÃ¢ngulo te1: <VALOR>"
+        areaTe1 = te1.calculaArea();
+        // DONE 15 imprima o valor da Ã¡rea da seguinte forma: "Ã�rea do triÃ¢ngulo te1: <VALOR>"
+        System.out.println("Área do triângulo: " + areaTe1);
         
         // TODO 16 crie aqui uma variÃ¡vel double de nome perimetroTe1
         // TODO 17 atravÃ©s do objeto te1, acesse o mÃ©todo calcPerimetro() da classe TrianguloEquilatero
