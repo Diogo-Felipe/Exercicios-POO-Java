@@ -4,11 +4,11 @@ public class TrianguloEquilatero {
 	private double lado;
 	private double altura;
 	
-	TrianguloEquilatero(){
+	public TrianguloEquilatero(){
 		System.out.println("Inicializando construtor sem parametros");
 	}
 	
-	TrianguloEquilatero( double lado, double altura ){
+	public TrianguloEquilatero( double lado, double altura ){
 		this.setLado(lado);
 		this.setAltura(altura);
 	}

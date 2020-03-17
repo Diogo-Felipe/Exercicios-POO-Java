@@ -1,7 +1,7 @@
 
 package exerc03_geometria;
 
-import dimensao.bidimensional.TrianguloRetangulo;
+import dimensao.bidimensional.*;
 
 public class Exerc03_Geometria {
     
@@ -38,6 +38,7 @@ public class Exerc03_Geometria {
         TrianguloRetangulo tr2 = new TrianguloRetangulo(0.0,-1.2,3.0,9.9);
         
         // TODO 10 aqui dentro do main, crie um objeto da classe TrianguloEquilatero (nome: te1)
+        TrianguloEquilatero te1 = new TrianguloEquilatero();
         
         // TODO 11 atravÃ©s do set, atribua valor 6.33 para o atributo lado
         // TODO 12 atravÃ©s do set, atribua valor 5.48 para o atributo altura
