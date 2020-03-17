@@ -15,8 +15,8 @@ public class Exerc03_Geometria {
     // DONE 5 crie um mÃ©todo para calcular e retornar o perÃ­metro do triÃ¢ngulo equilÃ¡tero
     // DONE 6 crie o contrutor padrÃ£o (sem argumentos)
     // DONE 7 crie o contrutor parametrizado (com todos os argumentos)
-    // TODO 8 programe os mÃ©todos de configuraÃ§Ã£o set e get para todos os atributos
-    // TODO 9 dentro de cada mÃ©todo set, implemente a seguinte regra de validaÃ§Ã£o:
+    // DONE 8 programe os mÃ©todos de configuraÃ§Ã£o set e get para todos os atributos
+    // DONE 9 dentro de cada mÃ©todo set, implemente a seguinte regra de validaÃ§Ã£o:
     ///////// o atributo sÃ³ serÃ¡ modificado se o valor passado para o set for maior que zero
     ///////// caso contrÃ¡rio, imprimir a mensagem "Valor invÃ¡lido" e encerrar o programa
     //////////////////////////////////////////////
