@@ -41,7 +41,9 @@ public class Exerc03_Geometria {
         TrianguloEquilatero te1 = new TrianguloEquilatero();
         
         // TODO 11 atravÃ©s do set, atribua valor 6.33 para o atributo lado
+        te1.setLado(6.33);
         // TODO 12 atravÃ©s do set, atribua valor 5.48 para o atributo altura
+        te1.setAltura(5.48);
         
         // TODO 13 crie aqui uma variÃ¡vel double de nome areaTe1
         // TODO 14 atravÃ©s do objeto te1, acesse o mÃ©todo calcArea() da classe TrianguloEquilatero
