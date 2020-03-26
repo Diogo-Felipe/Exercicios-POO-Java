@@ -1,8 +1,8 @@
 package br.banco.transacao;
 
-// TODO 03 - herde a classe Transacao
+// DONE 03 - herde a classe Transacao
 
-public class Transferencia {
+public class Transferencia extends Transacao{
 
     private String contaOrigem;
     private String contaDestino;
@@ -23,8 +23,12 @@ public class Transferencia {
         this.contaDestino = contaDestino;
     }
     
-    // TODO 04 - crie o método emitirComprovante (público, não recebe e nem retorna nada)
+    // DONE 04 - crie o método emitirComprovante (público, não recebe e nem retorna nada)
     //////////// este método deve imprimir os atributos desta classe, através do get
+    public void emitirComprovante() {
+    	System.out.println("Conta origem: " + getContaOrigem());
+    	System.out.println("Conta destino: " + getContaDestino());
+    }
     
     
 }
