@@ -2,6 +2,7 @@
 package exerc06_banco;
 
 import br.banco.transacao.PagamentoBoleto;
+import br.banco.transacao.Transferencia;
 
 public class Exerc06_Banco {
 
@@ -18,10 +19,16 @@ public class Exerc06_Banco {
     	boleto1.setLinhaDigitavel("131213154263");
     	boleto1.setCedente("Conta do Diogo");
         
-        // TODO 07 - crie um objeto da classe Transferencia chamado transf1
-        // TODO 08 - através do objeto transf1, acesse o método set dos atributos da classe e 
+        // DONE 07 - crie um objeto da classe Transferencia chamado transf1
+    	Transferencia transf1 = new Transferencia();
+        // DONE 08 - através do objeto transf1, acesse o método set dos atributos da classe e 
         //////////// atribua valores em todos eles, inclusive naqueles atributos que são herdados
-        
+    	transf1.setDescricao("Pagamento de Conta");
+    	transf1.setValor(200);
+    	transf1.setData("03/02/2020");
+    	transf1.setContaOrigem("Conta do Diogo");
+    	transf1.setContaDestino("Conta da Unama");
+    	
         // TODO 09 - chame a método emitirComprovante através do objeto boleto1
         // TODO 10 - chame a método emitirComprovante através do objeto transf1
         
