@@ -33,7 +33,12 @@ public class PagamentoBoleto extends Transacao{
         this.cedente = cedente;
     }
     
-    // TODO 02 - crie o método emitirComprovante (público, não recebe e nem retorna nada)
+    // DONE 02 - crie o método emitirComprovante (público, não recebe e nem retorna nada)
     //////////// este método deve imprimir os atributos desta classe, através do get
+    public void emitirComprovante() {
+    	System.out.println("Linha digitavel: " + getLinhaDigitavel());
+    	System.out.println("Data de Vencimento: " + getDataVencimento());
+    	System.out.println("Cedente: " + getCedente());
+    }
     
 }
