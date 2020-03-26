@@ -39,10 +39,10 @@ public class Exerc06_Banco {
         // DONE 12 - comente: os atributos da superclasse (Transferencia) são impressos? Justifique.
         //////////// R: Sobreescrevemos o metodo
         
-        // TODO 13 - comente: o que pode ser feito para resolver este problema?
-        //////////// R: Criar um metodo abstrato
+        // DONE 13 - comente: o que pode ser feito para resolver este problema?
+        //////////// R: Chamando o metodo sobrescrito da super clase
         
-        // TODO 14 - preste atenção para solucionar o problema! Depois, faça.
+        // DONE 14 - preste atenção para solucionar o problema! Depois, faça.
         
     }
     
