@@ -1,9 +1,9 @@
 
 package br.banco.transacao;
 
-// TODO 01 - herde a classe Transacao
+// DONE 01 - herde a classe Transacao
 
-public class PagamentoBoleto {
+public class PagamentoBoleto extends Transacao{
     
     private String linhaDigitavel;
     private String dataVencimento;
