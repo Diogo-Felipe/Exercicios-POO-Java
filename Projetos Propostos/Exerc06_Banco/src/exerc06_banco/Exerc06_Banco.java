@@ -1,12 +1,22 @@
 
 package exerc06_banco;
 
+import br.banco.transacao.PagamentoBoleto;
+
 public class Exerc06_Banco {
 
     public static void main(String[] args) {
-        // TODO 05 - crie um objeto da classe PagamentoBoleto chamado boleto1
-        // TODO 06 - através do objeto boleto1, acesse o método set dos atributos da classe e 
+        // DONE 05 - crie um objeto da classe PagamentoBoleto chamado boleto1
+    	PagamentoBoleto boleto1 = new PagamentoBoleto();
+    	
+        // DONE 06 - através do objeto boleto1, acesse o método set dos atributos da classe e 
         //////////// atribua valores em todos eles, inclusive naqueles atributos que são herdados
+    	boleto1.setDescricao("Pagamento de Conta");
+    	boleto1.setValor(200);
+    	boleto1.setData("03/02/2020");
+    	boleto1.setDataVencimento("08/05/2020");
+    	boleto1.setLinhaDigitavel("131213154263");
+    	boleto1.setCedente("Conta do Diogo");
         
         // TODO 07 - crie um objeto da classe Transferencia chamado transf1
         // TODO 08 - através do objeto transf1, acesse o método set dos atributos da classe e 
