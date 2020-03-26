@@ -29,16 +29,18 @@ public class Exerc06_Banco {
     	transf1.setContaOrigem("Conta do Diogo");
     	transf1.setContaDestino("Conta da Unama");
     	
-        // TODO 09 - chame a método emitirComprovante através do objeto boleto1
-        // TODO 10 - chame a método emitirComprovante através do objeto transf1
+        // DONE 09 - chame a método emitirComprovante através do objeto boleto1
+        // DONE 10 - chame a método emitirComprovante através do objeto transf1
+    	boleto1.emitirComprovante();
+    	transf1.emitirComprovante();
         
-        // TODO 11 - execute o projeto!
+        // DONE 11 - execute o projeto!
         
-        // TODO 12 - comente: os atributos da superclasse (Transferencia) são impressos? Justifique.
-        //////////// R:
+        // DONE 12 - comente: os atributos da superclasse (Transferencia) são impressos? Justifique.
+        //////////// R: Sobreescrevemos o metodo
         
         // TODO 13 - comente: o que pode ser feito para resolver este problema?
-        //////////// R:
+        //////////// R: Criar um metodo abstrato
         
         // TODO 14 - preste atenção para solucionar o problema! Depois, faça.
         
