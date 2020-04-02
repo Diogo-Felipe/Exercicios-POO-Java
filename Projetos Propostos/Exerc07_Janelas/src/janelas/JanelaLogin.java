@@ -1,9 +1,12 @@
 package janelas;
 
 import javax.swing.BoxLayout;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
 
 public class JanelaLogin extends JFrame{
 	// TODO 04 - FAÇA DENTRO DA CLASSE JanelaLogin. Não se esqueça de realizar 
@@ -26,16 +29,21 @@ public class JanelaLogin extends JFrame{
         ////////// passe a String "E-mail" para o construtor
         // DONE 10 - crie um objeto privado da classe JLabel chamado txtSenha
         ////////// passe a String "Senha" para o construtor
-		private JLabel txtLogin = new JLabel();
-		private JLabel txtEmail = new JLabel();
-		private JLabel txtSenha = new JLabel();
+		private JLabel txtLogin = new JLabel("Informe os seus dados");
+		private JLabel txtEmail = new JLabel("E-mail");
+		private JLabel txtSenha = new JLabel("Senha");
 		
-        // TODO 11 - crie um objeto privado da classe JTextField chamado campoEmail
+        // DONE 11 - crie um objeto privado da classe JTextField chamado campoEmail
         ////////// passe o valor 20 para o construtor
-        // TODO 12 - crie um objeto privado da classe JPasswordField chamado campoSenha
+        // DONE 12 - crie um objeto privado da classe JPasswordField chamado campoSenha
         ////////// passe o valor 20 para o construtor
-        // TODO 13 - crie um objeto privado da classe JButton chamado botaoOK
+		// DONE 13 - crie um objeto privado da classe JButton chamado botaoOK
         ////////// passe a String "Entrar" para o construtor
+		private JTextField campoEmail = new JTextField(20);
+		private JPasswordField campoSenha = new JPasswordField(20);
+		private JButton botaoOK = new JButton("Entrar");
+		
+        
         // TODO 14 - programe um construtor público e não parametrizado
         // TODO 15 - FAÇA DENTRO DO CONSTRUTOR:
             // TODO 16 - usando o objeto painel, chame o método setLayout e 
