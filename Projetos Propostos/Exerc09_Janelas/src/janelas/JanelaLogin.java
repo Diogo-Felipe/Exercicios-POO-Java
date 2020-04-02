@@ -13,7 +13,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 /*
-    TODO 01 - a sua tarefa agora é criar mais um botão aqui nesta classe
+    DONE 01 - a sua tarefa agora é criar mais um botão aqui nesta classe
     /////// com a função de limpar os campos informados na tela, ou seja,
     /////// quando o usuário clicar no botão limpar, então o email e 
     /////// a senha informados deverão ser apagados
@@ -32,7 +32,9 @@ public class JanelaLogin extends JFrame {
     private JPasswordField campoSenha = new JPasswordField(20);
     
     private JButton botaoOK = new JButton("Entrar");
-
+    
+    private JButton botaoLimpar = new JButton("Limpar");
+    
     public JanelaLogin() {
         
         painel.setLayout(layoutPainel);
@@ -45,6 +47,7 @@ public class JanelaLogin extends JFrame {
         campoEmail.setAlignmentX(CENTER_ALIGNMENT);
         campoSenha.setAlignmentX(CENTER_ALIGNMENT);
         botaoOK.setAlignmentX(CENTER_ALIGNMENT);
+        botaoLimpar.setAlignmentX(CENTER_ALIGNMENT);
         
         botaoOK.addActionListener(new ActionListener() {
             @Override
@@ -63,12 +66,23 @@ public class JanelaLogin extends JFrame {
             }
         });
         
+        botaoLimpar.addActionListener(new ActionListener() {
+        	@Override
+        	public void actionPerformed(ActionEvent ae) {
+                 
+                 campoEmail.setText("");
+                 campoSenha.setText("");
+                                  
+             }
+        });
+        
         painel.add(txtLogin);
         painel.add(txtEmail);
         painel.add(campoEmail);
         painel.add(txtSenha);
         painel.add(campoSenha);
         painel.add(botaoOK);
+        painel.add(botaoLimpar);
         
         this.add(painel);
     }
