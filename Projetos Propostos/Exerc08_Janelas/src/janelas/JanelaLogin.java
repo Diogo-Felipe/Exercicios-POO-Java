@@ -7,6 +7,7 @@ import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
@@ -38,7 +39,7 @@ public class JanelaLogin extends JFrame {
         campoSenha.setAlignmentX(CENTER_ALIGNMENT);
         botaoOK.setAlignmentX(CENTER_ALIGNMENT);
         
-        // TODO 06 - vamos programar aqui a ação de clique do botão
+        // DONE 06 - vamos programar aqui a ação de clique do botão
         
         // o método addActionListener é chamado através do objeto botaoOK
         botaoOK.addActionListener(new ActionListener() {
@@ -47,30 +48,37 @@ public class JanelaLogin extends JFrame {
             // repare que o actionPerformed está sendo sobrescrito!!! (override):
             @Override
             public void actionPerformed(ActionEvent ae) {
-                // TODO 07 - aqui dentro, crie uma variável do tipo String de nome
+                // DONE 07 - aqui dentro, crie uma variável do tipo String de nome
                 ////////// emailDigitado e atribua a ela o valor de retorno 
                 ////////// do método getText que deve ser chamado através do 
                 ////////// objeto campoEmail
+            	String emailDigitado = campoEmail.getText();
                 
-                // TODO 08 - crie agora outra variável do tipo String de nome
+                // done 08 - crie agora outra variável do tipo String de nome
                 ////////// senhaDigitada e atribua a ela o valor de retorno 
                 ////////// do método getPassword que deve ser chamado através do 
                 ////////// objeto campoSenha
+            	String senhaDigitada = String.valueOf(campoSenha.getPassword()); 
                 
-                // TODO 09 - por que está dando erro?
-                ////////// R:
+                // DONE 09 - por que está dando erro?
+                ////////// R: getPassword retorna um vetor de char
                 
-                // TODO 10 - realize a conversão para String através do método String.valueOf
+                // DONE 10 - realize a conversão para String através do método String.valueOf
                 
-                // TODO 11 - programe a seguinte verificação:
+                // DONE 11 - programe a seguinte verificação:
                 ////////// se a senha digitada for igual a "senha!@#" e o email "admin@sistema.com"
                 ////////// então mostre uma caixa de JOptionPane da seguinte forma:
                 ////////// JOptionPane.showMessageDialog(null, "Senha Correta", "Sistema.com", JOptionPane.INFORMATION_MESSAGE);
                 ////////// senão, mostre a seguinte caixa:
                 ////////// JOptionPane.showMessageDialog(null, "Senha Incorreta", "Sistema.com", JOptionPane.ERROR_MESSAGE);
                 ////////// faça importações necessárias
+            	if(senhaDigitada.equals("senha!@#") && emailDigitado.equals("admin@sistema.com") ) {
+            		JOptionPane.showMessageDialog(null, "Senha Correta", "Sistema.com", JOptionPane.INFORMATION_MESSAGE);
+            	} else {
+            		JOptionPane.showMessageDialog(null, "Senha Incorreta", "Sistema.com", JOptionPane.ERROR_MESSAGE);
+            	}
                 
-                // TODO 12 - execute o projeto, faça os testes. o que acontece? 
+                // DONE 12 - execute o projeto, faça os testes. o que acontece? 
                 ////////// LEGAL NÉ??? ;)
                 
             }

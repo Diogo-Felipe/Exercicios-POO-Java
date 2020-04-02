@@ -22,8 +22,9 @@ public class Exerc08_Janelas {
     	janelaLogin.setVisible(true);
     	
         
-        // TODO 05 - execute o projeto, digite valores nos campos e clique no botão!
+        // DONE 05 - execute o projeto, digite valores nos campos e clique no botão!
         ////////// o que acontece?
+    	// R: nada acontece
         
     }
     
