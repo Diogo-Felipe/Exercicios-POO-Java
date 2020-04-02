@@ -2,6 +2,7 @@ package janelas;
 
 import javax.swing.BoxLayout;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class JanelaLogin extends JFrame{
@@ -19,12 +20,16 @@ public class JanelaLogin extends JFrame{
 		private BoxLayout layoutPainel = new BoxLayout(painel, BoxLayout.PAGE_AXIS);
 			
         
-        // TODO 08 - crie um objeto privado da classe JLabel chamado txtLogin
+        // DONE 08 - crie um objeto privado da classe JLabel chamado txtLogin
         ////////// passe a String "Informe os seus dados" para o construtor
-        // TODO 09 - crie um objeto privado da classe JLabel chamado txtEmail
+        // DONE 09 - crie um objeto privado da classe JLabel chamado txtEmail
         ////////// passe a String "E-mail" para o construtor
-        // TODO 10 - crie um objeto privado da classe JLabel chamado txtSenha
+        // DONE 10 - crie um objeto privado da classe JLabel chamado txtSenha
         ////////// passe a String "Senha" para o construtor
+		private JLabel txtLogin = new JLabel();
+		private JLabel txtEmail = new JLabel();
+		private JLabel txtSenha = new JLabel();
+		
         // TODO 11 - crie um objeto privado da classe JTextField chamado campoEmail
         ////////// passe o valor 20 para o construtor
         // TODO 12 - crie um objeto privado da classe JPasswordField chamado campoSenha
