@@ -1,16 +1,24 @@
 package janelas;
 
+import javax.swing.BoxLayout;
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
 public class JanelaLogin extends JFrame{
 	// TODO 04 - FAÇA DENTRO DA CLASSE JanelaLogin. Não se esqueça de realizar 
     ////////// importação quando necessário e nem de ir salvando os arquivos:
         // DONE 05 - programe o relacionamento de herança entre JanelaLogin e 
         ////////// a classe JFrame
-        // TODO 06 - crie um objeto privado da classe JPanel chamado painel
-        // TODO 07 - crie um objeto privado da classe BoxLayout chamado layoutPainel
+	
+        // DONE 06 - crie um objeto privado da classe JPanel chamado painel
+		private JPanel painel = new JPanel();
+	
+        // DONE 07 - crie um objeto privado da classe BoxLayout chamado layoutPainel
         ////////// passe os seguintes valores para o construtor:
-        ////////// painel (objeto criado acima) e BoxLayout.PAGE_AXIS
+		//////////painel (objeto criado acima) e BoxLayout.PAGE_AXIS
+		private BoxLayout layoutPainel = new BoxLayout(painel, BoxLayout.PAGE_AXIS);
+			
+        
         // TODO 08 - crie um objeto privado da classe JLabel chamado txtLogin
         ////////// passe a String "Informe os seus dados" para o construtor
         // TODO 09 - crie um objeto privado da classe JLabel chamado txtEmail
