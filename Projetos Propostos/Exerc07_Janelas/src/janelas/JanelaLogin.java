@@ -9,7 +9,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 public class JanelaLogin extends JFrame{
-	// TODO 04 - FAÇA DENTRO DA CLASSE JanelaLogin. Não se esqueça de realizar 
+	// DONE 04 - FAÇA DENTRO DA CLASSE JanelaLogin. Não se esqueça de realizar 
     ////////// importação quando necessário e nem de ir salvando os arquivos:
         // DONE 05 - programe o relacionamento de herança entre JanelaLogin e 
         ////////// a classe JFrame
@@ -44,8 +44,9 @@ public class JanelaLogin extends JFrame{
 		private JButton botaoOK = new JButton("Entrar");
 		
         
-        // TODO 14 - programe um construtor público e não parametrizado
-        // TODO 15 - FAÇA DENTRO DO CONSTRUTOR:
+        // DONE 14 - programe um construtor público e não parametrizado
+		public JanelaLogin() {
+	        // TODO 15 - FAÇA DENTRO DO CONSTRUTOR:
             // TODO 16 - usando o objeto painel, chame o método setLayout e 
             ////////// passe como argumento o objeto layoutPainel da classe BoxLayout
             // TODO 17 - usando o objeto campoEmail, chame o método setMaximumSize e
@@ -60,6 +61,7 @@ public class JanelaLogin extends JFrame{
             ////////// objeto txtLogin como argumento
             // TODO 22 - faça o mesmo da tarefa 21 para os objetos txtEmail, campoEmail,
             ////////// txtSenha, campoSenha e botaoOK (NESTA ORDEM)
-        ///////////
+		}
+		///////////
     //////////
 }
