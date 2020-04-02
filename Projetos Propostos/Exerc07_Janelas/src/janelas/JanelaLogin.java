@@ -46,21 +46,40 @@ public class JanelaLogin extends JFrame{
         
         // DONE 14 - programe um construtor público e não parametrizado
 		public JanelaLogin() {
-	        // TODO 15 - FAÇA DENTRO DO CONSTRUTOR:
-            // TODO 16 - usando o objeto painel, chame o método setLayout e 
+	        // DONE 15 - FAÇA DENTRO DO CONSTRUTOR:
+            // DONE 16 - usando o objeto painel, chame o método setLayout e 
             ////////// passe como argumento o objeto layoutPainel da classe BoxLayout
-            // TODO 17 - usando o objeto campoEmail, chame o método setMaximumSize e
+			painel.setLayout(layoutPainel);
+			
+            // DONE 17 - usando o objeto campoEmail, chame o método setMaximumSize e
             ////////// passe o valor da chamada campoEmail.getPreferredSize()
             ////////// como argumento
-            // TODO 18 - faça o mesmo da tarefa 17 para o objeto campoSenha
-            // TODO 19 - através do objeto txtLogin, acesse o método setAlignmentX e
+			campoEmail.setMaximumSize(campoEmail.getPreferredSize());
+			
+            // DONE 18 - faça o mesmo da tarefa 17 para o objeto campoSenha
+			campoSenha.setMaximumSize(campoSenha.getPreferredSize());
+			
+            // DONE 19 - através do objeto txtLogin, acesse o método setAlignmentX e
             ////////// passe como argumento o valor da constante CENTER_ALIGNMENT
-            // TODO 20 - faça o mesmo da tarefa 19 para os objetos txtEmail, txtSenha,
+			txtLogin.setAlignmentX(CENTER_ALIGNMENT);
+			
+            // DONE 20 - faça o mesmo da tarefa 19 para os objetos txtEmail, txtSenha,
             ////////// campoEmail, campoSenha e botaoOK
-            // TODO 21 - através do objeto painel, acesse o método add e passe o 
+			campoEmail.setAlignmentX(CENTER_ALIGNMENT);
+			campoSenha.setAlignmentX(CENTER_ALIGNMENT);
+			botaoOK.setAlignmentX(CENTER_ALIGNMENT);
+			
+            // DONE 21 - através do objeto painel, acesse o método add e passe o 
             ////////// objeto txtLogin como argumento
-            // TODO 22 - faça o mesmo da tarefa 21 para os objetos txtEmail, campoEmail,
+			painel.add(txtLogin);
+			
+            // DONE 22 - faça o mesmo da tarefa 21 para os objetos txtEmail, campoEmail,
             ////////// txtSenha, campoSenha e botaoOK (NESTA ORDEM)
+			painel.add(txtEmail);
+			painel.add(campoEmail);
+			painel.add(txtSenha);
+			painel.add(campoSenha);
+			painel.add(botaoOK);
 		}
 		///////////
     //////////
