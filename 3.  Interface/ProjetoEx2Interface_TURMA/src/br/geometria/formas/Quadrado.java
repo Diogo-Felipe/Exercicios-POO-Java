@@ -8,7 +8,16 @@ public class Quadrado implements ICalcGeometria{
 	}
 	
 	public void setLado(double lado){
-		this.lado = lado;
+		if(lado > 0) {
+			this.lado = lado;
+		} else {
+			System.err.println("Valor negatvo");
+			System.exit(0);
+		}
+	}
+	
+	public double getLado() {
+		return lado;
 	}
 
 	@Override

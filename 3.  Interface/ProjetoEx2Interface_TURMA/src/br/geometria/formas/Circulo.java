@@ -9,9 +9,19 @@ public class Circulo implements ICalcGeometria{
 	}
 	
 	public void setRaio(double raio) {
-		this.raio = raio;
+		if(raio > 0) {
+			this.raio = raio;
+		} else {
+			System.err.println("Valor negatvo");
+			System.exit(0);
+		}
+		
 	}
-
+	
+	public double getRaio() {
+		return raio;
+	}
+	
 	@Override
 	public double calcArea() {
 		return Math.PI * (raio*raio);
